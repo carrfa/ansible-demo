@@ -1,0 +1,5 @@
+---
+- name: Get server Hostname
+  hosts: all
+  tasks:
+   - ansible.builtin.shell: hostname
